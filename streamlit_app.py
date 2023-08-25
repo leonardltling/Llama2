@@ -7,7 +7,7 @@ st.set_page_config(page_title="🦙💬 ChatLlama - MetaAI")
 
 # Replicate Credentials
 with st.sidebar:
-    st.title('🦙💬 ChatLlama by Leonard Ling')
+    st.title('🦙💬 ChatLlama')
     if 'REPLICATE_API_TOKEN' in st.secrets:
         st.success('API key already provided!', icon='✅')
         replicate_api = st.secrets['REPLICATE_API_TOKEN']
